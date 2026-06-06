@@ -64,4 +64,9 @@ Below are short descriptions of each file inside the `test/` folder in the seque
   - Purpose: Receive timestamped UDP messages and process or display them.
   - Typical behavior: listens on a UDP port, reads incoming timestamp binary timestamps, prints them to serial, and print in serial monitor.
 
+- `test/connect_with_ros_node.cpp` 
+  In this testing i connect the esp with ros2 node using udp protocol, required ros2 node code is at raspberry_pi repository of mine github inside the demo_pkg.
+  - Purpose: Connect with ros2 node and receive the string message send by the ros2 node and blink the led based on the string length received
+  - Typical Behaviour: Listem on a UDP port, reads incoming string, print in the serial monitor and blink the led.
+
 
