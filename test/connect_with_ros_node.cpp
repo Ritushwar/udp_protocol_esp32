@@ -2,8 +2,8 @@
 #include <WiFi.h>
 #include <WiFiUdp.h>
 
-const char* ssid = "My ROS Server";
-const char* password = "#ritu123";
+const char* ssid = "SSID";
+const char* password = "password";
 const int led = 26;
 
 WiFiUDP udp;

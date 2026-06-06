@@ -2,8 +2,8 @@
 #include <time.h>
 #include <WiFi.h>
 
-const char* ssid = "My ROS Server";
-const char* password = "#ritu123";
+const char* ssid = "SSID";
+const char* password = "password";
 time_t now;
 
 
